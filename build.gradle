@@ -75,7 +75,7 @@ tasks.withType(Test) {
 
 task web(type: Test) {
     useJUnitPlatform {
-        includeTags 'web'
+        includeTags 'api'
     }
 }
 
